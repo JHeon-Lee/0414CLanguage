@@ -43,7 +43,7 @@ int main()
 	printf("배열의 행의 개수 : %d\n", sizeof(arr7) / sizeof(arr7[0]));
 	printf("배열의 열의 개수 : %d\n\n", sizeof(arr7[0]) / sizeof(arr7[0][0]));
 
-	//floor();
+	floor();
 
 	printScore();
 
@@ -220,3 +220,5 @@ void board()
 		printf("\n");
 	}
 }
+
+// 버블 정렬, 선택 정렬 homework

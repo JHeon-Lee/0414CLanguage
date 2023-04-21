@@ -38,7 +38,7 @@ int main()
 	int arr7[4][2];
 
 	printf("배열 전체 바이트 크기 : %d\n", sizeof(arr7));
-	printf("배열 1행 바이트 크기 : %d\n", sizeof(arr7[0]));
+	printf("배열 1행 바이트 크기 : %d\n", sizeof(arr7[0])); // arr7[0] --> 1행
 	printf("배열의 원소 개수 : %d\n", sizeof(arr7) / sizeof(int));
 	printf("배열의 행의 개수 : %d\n", sizeof(arr7) / sizeof(arr7[0]));
 	printf("배열의 열의 개수 : %d\n\n", sizeof(arr7[0]) / sizeof(arr7[0][0])); // sizeof(arr7[0] / sizeof(int)
